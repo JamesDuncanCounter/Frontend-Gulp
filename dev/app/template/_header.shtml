@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	<title>Front End Framework</title>
+	<link rel="home" href="/" />
+	<link rel="stylesheet" href="/dist/css/style.css" />
+	<script src="/dist/js/modernizr.js" language="JavaScript"></script>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<header>
+			<h1 id="page-headline">Article</h1>
+		</header>
+	</div>
+</div>

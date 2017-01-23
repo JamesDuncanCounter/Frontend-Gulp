@@ -1,0 +1,51 @@
+body {
+	font-family: $font-family-sans-serif;
+}
+header {
+	@include make-col(12);
+	margin-bottom: 2em;
+	background-color: $ca-blue;
+	color: $white;
+	text-align: center;
+	padding: 3em 0;
+	font-family: "open sans bold", sans-serif;
+	font-weight: 700;
+
+
+	//All devices larger than mobile
+	@include media-breakpoint-up(sm) {
+
+	}
+}
+
+.module-container {
+	@include make-row();
+	flex-direction: row;
+	
+	&.pages {
+		
+		background-color: $ca-light-blue;
+
+		div {
+			border: solid 10px $white;
+			text-align: center;
+
+			a {
+				display: block;
+				padding: 2em;
+				text-align: center;
+				height: 100%;
+				color: $black;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+
+			&:hover {
+				background-color: darken($ca-light-blue, 10%);
+			}
+		}
+	}
+}
+

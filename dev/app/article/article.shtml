@@ -1,0 +1,3 @@
+<!--#include virtual="/dev/app/template/_header.shtml" -->
+
+<!--#include virtual="/dev/app/template/_footer.shtml" -->

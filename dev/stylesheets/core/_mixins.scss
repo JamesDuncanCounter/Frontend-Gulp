@@ -1,0 +1,23 @@
+///Mixin for Open Sans Regular font family
+
+@font-face {
+  font-family: 'open sans regular';
+  src: url('/dist/fonts/open-sans/OpenSans-Regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('/dist/fonts/open-sans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/dist/fonts/open-sans/OpenSans-Regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('/dist/fonts/open-sans/OpenSans-Regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('/dist/fonts/open-sans/OpenSans-Regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+///Mixin for Open Sans Bold font family
+
+@font-face {
+  font-family: 'open sans bold';
+  src: url('/dist/fonts/open-sans/OpenSans-Bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('/dist/fonts/open-sans/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/dist/fonts/open-sans/OpenSans-Bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('/dist/fonts/open-sans/OpenSans-Bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('/dist/fonts/open-sans/OpenSans-Bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
